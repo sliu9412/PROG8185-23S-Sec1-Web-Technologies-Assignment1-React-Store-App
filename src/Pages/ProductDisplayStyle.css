@@ -1,0 +1,8 @@
+.product-image {
+    width: 900px;
+    height: 700px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 10px;
+    float: inline-start;
+  }

@@ -1,0 +1,50 @@
+.purchasedProductsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.commentCard {
+  padding: 18px 25px;
+  border-radius: 6px;
+  transition: 0.3s all ease;
+  cursor: pointer;
+  color: #000;
+  transition: 0.5s;
+  margin-bottom: 20px;
+}
+.commentCard {
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+}
+
+.commentCard img{
+    height: 300px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.commentCard:hover {
+  background: #017cff;
+  color: white;
+  transform: translateY(-10px);
+}
+
+.commentCard {
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+  border-radius: 10px;
+}
+
+
+.userComment {
+    display: flex;
+    justify-content: space-between;
+}
+
+.userComment span {
+    color: #535353;
+}
+
+.commentCard:hover .userComment span {
+    color: #e3e3e3;
+}
